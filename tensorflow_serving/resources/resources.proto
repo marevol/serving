@@ -9,6 +9,7 @@ syntax = "proto3";
 import "google/protobuf/wrappers.proto";
 
 package tensorflow.serving;
+option go_package = "github.com/tensorflow/serving/tensorflow_serving/go/resources";
 
 // One kind of resource on one device (or type of device).
 message Resource {

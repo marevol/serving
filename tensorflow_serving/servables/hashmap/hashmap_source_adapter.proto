@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package tensorflow.serving;
+option go_package = "github.com/tensorflow/serving/tensorflow_serving/go/servables/hashmap";
 
 // Config proto for HashmapSourceAdapter.
 message HashmapSourceAdapterConfig {

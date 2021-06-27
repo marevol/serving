@@ -16,6 +16,7 @@ limitations under the License.
 syntax = "proto3";
 
 package tensorflow.serving.test_util;
+option go_package = "github.com/tensorflow/serving/tensorflow_serving/go/servables/tensorflow/test_util";
 
 // Config proto for FakeThreadPoolFactory.
 message FakeThreadPoolFactoryConfig {}

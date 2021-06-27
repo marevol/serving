@@ -3,6 +3,7 @@ syntax = "proto3";
 import "tensorflow_serving/servables/tensorflow/session_bundle_config.proto";
 
 package tensorflow.serving;
+option go_package = "github.com/tensorflow/serving/tensorflow_serving/go/servables/tensorflow";
 
 // Config proto for SavedModelBundleSourceAdapter.
 message SavedModelBundleSourceAdapterConfig {
